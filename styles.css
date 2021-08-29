@@ -212,7 +212,7 @@ padding: 2rem 0;
  }
 }
 
-@meida(max-width:600px){
+@media(max-width:600px){
  .brand-text{
   font-size:1rem;
  }
@@ -229,11 +229,11 @@ padding: 2rem 0;
   margin-right: 0.5rem;
 }
 .sample-img-container{
-  display: none;
+  display: none !important;
   height: 0;
 }
 .sample-img{
-  display: none;
+  display: none !important;
   height: 0;
 }
 .text-color{
