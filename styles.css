@@ -135,9 +135,9 @@ overflow-x:hidden;
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
-
-
 }
+
+
 .male-img-1{
   width: 100%;
   display: grid;
@@ -188,6 +188,118 @@ padding: 2rem 0;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
+
+.highlight-container{
+
+}
+
+.special-card{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100px;
+  grid-gap: 1rem;
+width: 90%;  
+padding: 1rem;
+margin-bottom: 3rem;
+}
+
+.highlight-img{
+  width: 100%;
+  height: auto;
+}
+.cloth-info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem 1rem;
+}
+.highlight-product{
+  background: url(./images/female-1.jfif);
+  height: 80vh;
+  width: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.highlight-product-details{
+  width: 75%;
+  height: 28vh;
+  background-color: #FF6A28;
+  color: white;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+
+}
+.step-1{
+ padding: 0.5rem 1rem ;
+  color: white;
+}
+.step-1 h1{
+  
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+.step-2{
+  width: 100%;
+  height: auto;
+  background-color: #D65F2A;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  padding-bottom: 0;
+
+}
+.highlight{
+  color: #EDEDED;
+
+}
+
+/* #$#$#$#$#$#$#$#$#$#$#$################### */
+.section-4{
+  width: 100%;
+  padding: 7rem 5rem;
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+.giveaway{
+  color: #333333;
+  text-align: center;
+  font-size: 3.5rem;
+   font-family: 'Kaisei HarunoUmi', serif;
+   margin-bottom: 3rem;
+}
+.sub-container{
+  display: flex;
+  border: 1px solid #9e9c9c;
+  width: 40%;
+  height: 8vh;
+  
+}
+.sub-input{
+  border: none;
+  outline: none;
+  width: 60%;
+  height: auto;
+  padding-left: 0.5rem;
+}
+.sub-btn{
+  background-color: #555555;
+  color: white;
+  width: 40%;
+  outline: none;
+  border: none;
+  height: auto;
+  padding: 0.25rem 0.5rem;
+}
+
+
+
+
 
 
 
@@ -301,8 +413,39 @@ padding: 2rem 0;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
-
-
- 
+.special-card{
+  width: 100%;
+  
 }
+.highlight-container{
+  margin-bottom: 2rem;
+}
+.highlight-product{
+  width: 100%;
+  height: 80vh;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.highlight-product-details{
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+}
+
+.section-4{
+  padding: 1rem;
+
+}
+.giveaway{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.sub-container{
+  width: 80%;
+
+}
+
+}
+
 
